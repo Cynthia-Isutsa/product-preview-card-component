@@ -46,5 +46,27 @@ body{
 }
 .text #black{
     color:var(--Darkgrayishblue);
-    padding-bottom:20px;
+    display: flex;
+    justify-content: center;
+}
+.text .price{
+    display: flex;
+    flex-direction: row;
+}
+.text .price h1{
+    font-size: 1.9rem;
+    font-weight: 700;
+    color:var(--Darkcyan);
+}
+.text .price p{
+    font-size: 0.8rem;
+    color:var(--Darkgrayishblue);
+    padding-bottom: 20px;
+}
+.text button{
+    background-color: var(--Darkcyan);
+    padding: 10px 50px;
+    border-radius: 5px;
+    color:var(--White);
+    font-size: 0.7rem;
 }
